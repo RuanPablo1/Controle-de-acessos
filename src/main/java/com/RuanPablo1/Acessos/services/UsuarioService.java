@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.services;
+package com.RuanPablo1.Acessos.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.RuanPablo1.Gerenciamento.dtos.UsuarioDTO;
-import com.RuanPablo1.Gerenciamento.dtos.UsuarioRoleDTO;
-import com.RuanPablo1.Gerenciamento.models.Role;
-import com.RuanPablo1.Gerenciamento.models.Usuario;
-import com.RuanPablo1.Gerenciamento.repositories.UsuarioRepository;
+import com.RuanPablo1.Acessos.dtos.UsuarioDTO;
+import com.RuanPablo1.Acessos.dtos.UsuarioRoleDTO;
+import com.RuanPablo1.Acessos.models.Role;
+import com.RuanPablo1.Acessos.models.Usuario;
+import com.RuanPablo1.Acessos.repositories.UsuarioRepository;
 
 @Service
 public class UsuarioService {

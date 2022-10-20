@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.dtos;
+package com.RuanPablo1.Acessos.dtos;
 
 import java.util.List;
 import java.util.Objects;

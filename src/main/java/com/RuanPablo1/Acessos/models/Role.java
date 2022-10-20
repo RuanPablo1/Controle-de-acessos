@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.models;
+package com.RuanPablo1.Acessos.models;
 
 import java.io.Serializable;
 
@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
 
-import com.RuanPablo1.Gerenciamento.enums.RoleName;
+import com.RuanPablo1.Acessos.enums.RoleName;
 
 @Entity
 @Table(name = "tb_role")

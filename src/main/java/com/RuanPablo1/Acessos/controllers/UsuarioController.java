@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.controllers;
+package com.RuanPablo1.Acessos.controllers;
 
 import java.util.List;
 
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.RuanPablo1.Gerenciamento.dtos.UsuarioDTO;
-import com.RuanPablo1.Gerenciamento.dtos.UsuarioRoleDTO;
-import com.RuanPablo1.Gerenciamento.models.Usuario;
-import com.RuanPablo1.Gerenciamento.services.UsuarioService;
+import com.RuanPablo1.Acessos.dtos.UsuarioDTO;
+import com.RuanPablo1.Acessos.dtos.UsuarioRoleDTO;
+import com.RuanPablo1.Acessos.models.Usuario;
+import com.RuanPablo1.Acessos.services.UsuarioService;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)

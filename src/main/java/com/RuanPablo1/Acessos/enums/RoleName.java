@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.enums;
+package com.RuanPablo1.Acessos.enums;
 
 public enum RoleName {
 	

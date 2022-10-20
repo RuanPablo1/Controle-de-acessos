@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.configuration;
+package com.RuanPablo1.Acessos.configuration;
 
 import java.time.format.DateTimeFormatter;
 

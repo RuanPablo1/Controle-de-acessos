@@ -1,10 +1,10 @@
-package com.RuanPablo1.Gerenciamento.dtos;
+package com.RuanPablo1.Acessos.dtos;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.RuanPablo1.Gerenciamento.models.Usuario;
+import com.RuanPablo1.Acessos.models.Usuario;
 
 public class UsuarioDTO implements Serializable {
 

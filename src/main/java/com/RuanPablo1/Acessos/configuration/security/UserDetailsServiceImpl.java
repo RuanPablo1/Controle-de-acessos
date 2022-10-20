@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.configuration.security;
+package com.RuanPablo1.Acessos.configuration.security;
 
 import javax.transaction.Transactional;
 
@@ -9,8 +9,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.RuanPablo1.Gerenciamento.models.Usuario;
-import com.RuanPablo1.Gerenciamento.repositories.UsuarioRepository;
+import com.RuanPablo1.Acessos.models.Usuario;
+import com.RuanPablo1.Acessos.repositories.UsuarioRepository;
 
 @Service
 @Transactional

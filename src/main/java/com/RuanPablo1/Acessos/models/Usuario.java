@@ -1,4 +1,4 @@
-package com.RuanPablo1.Gerenciamento.models;
+package com.RuanPablo1.Acessos.models;
 
 import java.io.Serializable;
 import java.util.Collection;
